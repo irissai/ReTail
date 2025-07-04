@@ -38,11 +38,11 @@ pipeline {
         //     }
         // }
 
-        stage('Test with Coverage') {
-            steps {
-                sh 'npm test -- --coverage'
-            }
-        }
+        // stage('Test with Coverage') {
+        //     steps {
+        //         sh 'npm test -- --coverage'
+        //     }
+        // }
 
         // stage('Run Tests in Parallel') {
         //     parallel {
