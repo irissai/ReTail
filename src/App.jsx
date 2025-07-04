@@ -14,7 +14,6 @@ import BoxShawdow from './components/box-shawdow/BoxShadow'
 
 function App() {
 
-
   return (
     <div className="flex flex-col min-h-screen bg-[#050614] text-[#9881ff]">
       <header>
