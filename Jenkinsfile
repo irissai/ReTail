@@ -12,7 +12,7 @@ pipeline {
         // ----------------------
         stage('Clone') {
             steps {
-                git url: 'https://github.com/irissai/ReTail.git', branch: 'build-with-jenkins'
+                git url: 'https://github.com/irissai/ReTail.git', branch: 'main'
             }
         }
 
