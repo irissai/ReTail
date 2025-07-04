@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    image: kanthima005/nginx-node-test:latest  # ใช้ image ที่ build จาก dockerhub
+    ports:
+      - "5173:5173"
+    restart: always
