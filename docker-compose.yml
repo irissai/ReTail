@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: kanthima005/nginx-node-test:latest  # ใช้ image ที่ build จาก dockerhub
-    ports:
-      - "5173:5173"
+    image: kanthima005/frontend:latest  # ใช้ image ที่ build จาก dockerhub
+    ports: 
+      - "80:80"
     restart: always
