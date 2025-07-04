@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: kanthima005/frontend:latest  # ใช้ image ที่ build จาก dockerhub
+    image: kanthima005/frontend:v1.1  # ใช้ image ที่ build จาก dockerhub
     ports: 
       - "80:80"
     restart: always
